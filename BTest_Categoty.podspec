@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BTest_Categoty'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A  of BTest_Categoty.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'BTest_Categoty/Classes/**/*'
-  
+  s.requires_arc = true
+
   # s.resource_bundles = {
   #   'BTest_Categoty' => ['BTest_Categoty/Assets/*.png']
   # }
