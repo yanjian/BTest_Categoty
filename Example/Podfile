@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'BTest_Categoty_Example' do
+  pod 'BTest_Categoty', :path => '../'
+
+  target 'BTest_Categoty_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end

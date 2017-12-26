@@ -1,0 +1,6 @@
+framework module BTest_Categoty {
+  umbrella header "BTest_Categoty-umbrella.h"
+
+  export *
+  module * { export * }
+}

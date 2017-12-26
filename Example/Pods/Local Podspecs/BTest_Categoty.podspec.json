@@ -1,0 +1,27 @@
+{
+  "name": "BTest_Categoty",
+  "version": "0.1.0",
+  "summary": "A  of BTest_Categoty.",
+  "description": "homepage  --> https://github.com/yanjian/BTest_Categoty",
+  "homepage": "https://github.com/yanjian/BTest_Categoty",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yanjaya": "yanjaya@163.com"
+  },
+  "source": {
+    "git": "https://github.com/yanjian/BTest_Categoty.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BTest_Categoty/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}
